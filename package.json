@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Frontend + optional backend chatbot demo. Set OPENAI_API_KEY to enable real AI replies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

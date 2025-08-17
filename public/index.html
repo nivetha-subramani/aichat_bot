@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chatbot-popup">
+    <div class="chat-header">
+        <div class="header-info">
+            <div class="chatbot-logo">🤖</div>
+            <div class="logo-text">AI Chatbot</div>
+        </div>
+        <button id="close-chatbot">&times;</button>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+        <!-- Messages will be added here -->
+    </div>
+
+    <div class="chat-footer">
+        <div class="chat-form">
+            <textarea class="message-input" placeholder="Type a message..." required></textarea>
+            <div class="chat-controls">
+                <button id="send-message">➤</button>
+            </div>
+        </div>
+<style>
+/* Typing tab style */
+#typing-indicator {
+    display: none;
+    color: #888;
+    font-size: 0.95rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+</style>
+<div id="typing-indicator">Typing...</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
