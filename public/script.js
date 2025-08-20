@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Removed emojiPickerButton and attachFileInput
     const typingIndicator = document.getElementById("typing-indicator");
 
-    const API_KEY = ""; // Replace with your key
+    const API_KEY = "AIzaSyAHhrdVMpIpCpOAG8zgHBSdEBoE8-K1Yzg"; // Replace with your key
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
 
     const createMessageElement = (content, ...classes) => {
